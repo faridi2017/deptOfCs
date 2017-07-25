@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery History Example Page 1</title>
+	
+	<script src="jqLibrary/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+$(document).ready(function()
+		  {
+		 	
+			$("#forwardToTheNextPage").click(function () {
+			window.history.forward();
+		  })
+
+		});
+		 
+</script>
+</head>
+<body>
+<h1>jQuery History Example Page 1</h1><br>
+<a href="jQueryHistoryExample2.html" >jQuery History Example</a><br/>
+<a href="javascript:void(0)" id="forwardToTheNextPage" >Forward To The Next Page</a>
+
+</body>
+</html>
